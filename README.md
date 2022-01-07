@@ -60,7 +60,6 @@ Starting with OBS Studio 26.1, Virtual Camera support is integrated. The
 Here's how to install and configure `v4l2loopback` which OBS uses:
 
 ```
-sudo snap connect obs-studio:kernel-module-observe
 sudo apt -y install v4l2loopback-dkms v4l2loopback-utils
 echo 'options v4l2loopback devices=1 video_nr=13 card_label="OBS Virtual Camera" exclusive_caps=1' | sudo tee /etc/modprobe.d/v4l2loopback.conf
 echo "v4l2loopback" | sudo tee /etc/modules-load.d/v4l2loopback.conf
