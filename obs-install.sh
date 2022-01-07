@@ -54,13 +54,7 @@ function install_deb() {
     local FILE="${URL##*/}"
     fancy_message info "Installing: ${FILE} (deb)"
     web_get "${URL}" "${FILE}"
-    if [[ "${FILE}" != *"obs-text-pthread"* ]]; then
-        apt-get -q=2 -y install "${CACHE_DIR}/${FILE}" >/dev/null 2>&1
-    fi
-
-    if [[ "${FILE}" == *"obs-vnc"* ]]; then
-        apt_install "libvncclient1"
-    fi
+    apt-get -q=2 -y install "${CACHE_DIR}/${FILE}" >/dev/null 2>&1
 }
 
 function install_exeldro_plugin() {
@@ -223,7 +217,7 @@ install_deb "https://github.com/norihiro/obs-audio-pan-filter/releases/download/
 install_deb "https://github.com/norihiro/obs-command-source/releases/download/0.2.1/obs-command-source_1-0.2.1-1_amd64.deb"
 install_deb "https://github.com/Palakis/obs-ndi/releases/download/4.9.1/libndi4_4.5.1-1_amd64.deb"
 install_deb "https://github.com/Palakis/obs-ndi/releases/download/4.9.1/obs-ndi_4.9.1-1_amd64.deb"
-install_deb "https://github.com/norihiro/obs-text-pthread/releases/download/1.0.2/obs-text-pthread_1-1.0.2-1_amd64.deb"
+install_deb "https://github.com/norihiro/obs-text-pthread/releases/download/1.0.3/obs-text-pthread_1-1.0.3-1_amd64.deb"
 install_deb "https://github.com/iamscottxu/obs-rtspserver/releases/download/v2.2.0-rc3/obs-rtspserver-v2.2.0-rc3-linux.deb"
 install_deb "https://github.com/norihiro/obs-vnc/releases/download/0.4.0/obs-vnc_1-0.4.0-1_amd64.deb"
 install_deb "https://github.com/obsproject/obs-websocket/releases/download/4.9.1/obs-websocket_4.9.1-1_amd64.deb"
