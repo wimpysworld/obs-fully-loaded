@@ -237,7 +237,7 @@ install_exeldro_plugin "https://obsproject.com/forum/resources/gradient-source.1
 install_exeldro_plugin "https://obsproject.com/forum/resources/move-transition.913/version/3925/download?file=78863" "move-transition-2.5.4-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/recursion-effect.1008/version/3928/download?file=78616" "recursion-effect-0.0.4-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/replay-source.686/version/3441/download?file=72289" "replay-source-1.6.9-linux64.tar.gz.zip"
-install_exeldro_plugin "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/3919/download?file=78484" "scene-collection-manager-0.0.2-linux64.tar.gz.zip"
+install_exeldro_plugin "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/3958/download?file=78969" "scene-collection-manager-0.0.3-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/scene-notes-dock.1398/version/3938/download?file=78708" "scene-notes-dock-0.0.3-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/source-copy.1261/version/3410/download?file=71877" "source-copy-0.1.3-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/source-dock.1317/version/3937/download?file=78909" "source-dock-0.2.4-linux64.tar.gz.zip"
