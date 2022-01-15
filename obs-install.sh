@@ -234,7 +234,7 @@ install_exeldro_plugin "https://obsproject.com/forum/resources/downstream-keyer.
 install_exeldro_plugin "https://obsproject.com/forum/resources/dynamic-delay.1035/version/3129/download?file=67436" "dynamic-0.1.2-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/freeze-filter.950/version/3026/download?file=65909" "freeze-filter-0.3.2-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/gradient-source.1172/version/3926/download?file=78596" "gradient-source-0.3.0-linux64.tar.gz.zip"
-install_exeldro_plugin "https://obsproject.com/forum/resources/move-transition.913/version/3925/download?file=78580" "move-transition-2.5.3-linux64.tar.gz.zip"
+install_exeldro_plugin "https://obsproject.com/forum/resources/move-transition.913/version/3925/download?file=78863" "move-transition-2.5.4-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/recursion-effect.1008/version/3928/download?file=78616" "recursion-effect-0.0.4-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/replay-source.686/version/3441/download?file=72289" "replay-source-1.6.9-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/3919/download?file=78484" "scene-collection-manager-0.0.2-linux64.tar.gz.zip"
