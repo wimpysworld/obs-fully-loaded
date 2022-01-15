@@ -114,6 +114,10 @@ function install_zip_plugin() {
         mv "${PLUGIN_DIR}/usr/lib/obs-plugins/obs-rgb-levels-filter.so" "${PLUGIN_DIR}/obs-rgb-levels-filter/bin/64bit/"
         mv "${PLUGIN_DIR}/usr/share/obs/obs-plugins/obs-rgb-levels-filter/rgb_levels.effect" "${PLUGIN_DIR}/obs-rgb-levels-filter/data/"
         rm -rf "${PLUGIN_DIR}/usr"
+    elif [[ "${FILE}" == *"obs-teleport"* ]]; then
+        mkdir -p "${PLUGIN_DIR}/obs-teleport/bin/64bit"
+        mv "${PLUGIN_DIR}/linux-x86_64/obs-teleport.so" "${PLUGIN_DIR}/obs-teleport/bin/64bit/"
+        rm -rf "${PLUGIN_DIR}/linux-x86_64"
     elif [[ "${FILE}" == *"spectralizer"* ]]; then
         apt_install "libfftw3-3"
     elif [[ "${FILE}" == *"streamfx"* ]]; then
@@ -247,6 +251,7 @@ install_tarball_plugin "https://github.com/kkartaltepe/obs-text-pango/releases/d
 install_zip_plugin "https://github.com/univrsal/dvds3/releases/download/v1.1/dvd-screensaver.v1.1.linux.x64.zip"
 install_zip_plugin "https://github.com/fzwoch/obs-gstreamer/releases/download/v0.3.3/obs-gstreamer.zip" "obs-gstreamer.zip" "linux/*"
 install_zip_plugin "https://obsproject.com/forum/resources/obs-nvfbc.796/download" "obs-nvfbc.zip"
+install_zip_plugin "https://github.com/fzwoch/obs-teleport/releases/download/0.1.1/obs-teleport.zip" "obs-teleport.zip" "linux-x86_64/*"
 install_zip_plugin "https://github.com/Qufyy/obs-scale-to-sound/releases/download/1.1.0/obs-scale-to-sound-1.1.0-linux64.zip"
 install_zip_plugin "https://obsproject.com/forum/resources/rgb-levels.967/download" "rgb-levels-linux.zip"
 install_zip_plugin "https://github.com/univrsal/spectralizer/releases/download/v1.3.4/spectralizer.v1.3.4.bin.linux.x64.zip"
