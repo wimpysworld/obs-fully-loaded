@@ -161,7 +161,7 @@ function install_theme() {
     fi
 }
 
-echo "Open Broadcaster Software - Installer for Ubuntu"
+echo "Open Broadcaster Software - Installer for Ubuntu/Mint"
 
 if [ "$(id -u)" -ne 0 ]; then
   fancy_message error "You must use sudo to run this script."
@@ -183,14 +183,14 @@ else
 fi
 
 OS_ID=$(lsb_release --id --short)
-if [ "${OS_ID}" == "Ubuntu" ]; then
+if [ "${OS_ID}" == "Ubuntu" ] || [ "${OS_ID}" == "Linuxmint" ]; then
   fancy_message info "Ubuntu detected."
 else
   fancy_message error "${OS_ID} is not supported."
 fi
 
 OS_CODENAME=$(lsb_release --codename --short)
-if [ "${OS_CODENAME}" == "focal" ] || [ "${OS_CODENAME}" == "hirsute" ] || [ "${OS_CODENAME}" == "impish" ]; then
+if [ "${OS_CODENAME}" == "focal" ] || [ "${OS_CODENAME}" == "hirsute" ] || [ "${OS_CODENAME}" == "impish" ] || [ "${OS_CODENAME}" == "uma" ] || [ "${OS_CODENAME}" == "una" ]; then
   fancy_message info "${OS_CODENAME^} detected."
 else
   fancy_message error "${OS_CODENAME^} is not supported."
