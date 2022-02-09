@@ -185,6 +185,8 @@ fi
 OS_ID=$(lsb_release --id --short)
 if [ "${OS_ID}" == "Ubuntu" ]; then
   fancy_message info "Ubuntu detected."
+elif [ "${OS_ID}" == "Neon" ]; then
+  fancy_message info "KDE Neon detected."
 else
   fancy_message error "${OS_ID} is not supported."
 fi
