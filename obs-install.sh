@@ -186,6 +186,7 @@ OS_ID=$(lsb_release --id --short)
 case "${OS_ID}" in
   Linuxmint) fancy_message info "Linux Mint detected.";;
   Neon) fancy_message info "KDE Neon detected.";;
+  Pop) fancy_message info "Pop!_OS detected.";;
   Ubuntu) fancy_message info "Ubuntu detected.";;
   *) fancy_message error "${OS_ID} is not supported.";;
 esac
