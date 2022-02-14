@@ -161,7 +161,7 @@ function install_theme() {
     fi
 }
 
-echo "Open Broadcaster Software - Installer for Ubuntu/Mint"
+echo "Open Broadcaster Software - Installer for Ubuntu & derivatives"
 
 if [ "$(id -u)" -ne 0 ]; then
   fancy_message error "You must use sudo to run this script."
@@ -183,20 +183,19 @@ else
 fi
 
 OS_ID=$(lsb_release --id --short)
-if [ "${OS_ID}" == "Ubuntu" ] || [ "${OS_ID}" == "Linuxmint" ]; then
-  fancy_message info "Ubuntu detected."
-elif [ "${OS_ID}" == "Neon" ]; then
-  fancy_message info "KDE Neon detected."
-else
-  fancy_message error "${OS_ID} is not supported."
-fi
+case "${OS_ID}" in
+    Linuxmint) fancy_message info "LinuxMint detected.";;
+    Neon) fancy_message info "KDE Neon detected.";;
+    Ubuntu) fancy_message info "Ubuntu detected.";;
+    *) fancy_message error "${OS_ID} is not supported.";;
+esac
 
 OS_CODENAME=$(lsb_release --codename --short)
-if [ "${OS_CODENAME}" == "focal" ] || [ "${OS_CODENAME}" == "hirsute" ] || [ "${OS_CODENAME}" == "impish" ] || [ "${OS_CODENAME}" == "uma" ] || [ "${OS_CODENAME}" == "una" ]; then
-  fancy_message info "${OS_CODENAME^} detected."
-else
-  fancy_message error "${OS_CODENAME^} is not supported."
-fi
+case "${OS_CODENAME}" in
+  focal|hirsute|impish) fancy_message info "${OS_CODENAME^} detected.";;
+  uma|una) fancy_message info "${OS_CODENAME^} detected.";;
+  *) fancy_message error "${OS_CODENAME^} is not supported.";;
+esac
 
 fancy_message info "Updating apt."
 case ${1} in
