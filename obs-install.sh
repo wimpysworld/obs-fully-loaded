@@ -249,13 +249,13 @@ install_exeldro_plugin "https://obsproject.com/forum/resources/transition-table.
 
 # Install Tarball plugins to ~/.config/obs-studio/plugins
 install_tarball_plugin "https://github.com/kkartaltepe/obs-text-pango/releases/download/v1.0/text-pango-linux.tar.gz"
+install_tarball_plugin "https://github.com/Qufyy/obs-scale-to-sound/releases/download/1.2.0/obs-scale-to-sound-1.2.0-linux64.tar.gz"
 
 # Install Zipped plugins to ~/.config/obs-studio/plugins
 install_zip_plugin "https://github.com/univrsal/dvds3/releases/download/v1.1/dvd-screensaver.v1.1.linux.x64.zip"
 install_zip_plugin "https://github.com/fzwoch/obs-gstreamer/releases/download/v0.3.3/obs-gstreamer.zip" "obs-gstreamer.zip" "linux/*"
 install_zip_plugin "https://obsproject.com/forum/resources/obs-nvfbc.796/download" "obs-nvfbc.zip"
 install_zip_plugin "https://github.com/fzwoch/obs-teleport/releases/download/0.2.3/obs-teleport.zip" "obs-teleport.zip" "linux-x86_64/*"
-install_zip_plugin "https://github.com/Qufyy/obs-scale-to-sound/releases/download/1.2.0/obs-scale-to-sound-1.2.0-linux64.tar.gz"
 install_zip_plugin "https://obsproject.com/forum/resources/rgb-levels.967/download" "rgb-levels-linux.zip"
 install_zip_plugin "https://github.com/univrsal/spectralizer/releases/download/v1.3.4/spectralizer.v1.3.4.bin.linux.x64.zip"
 install_zip_plugin "https://github.com/Xaymar/obs-StreamFX/releases/download/0.11.0/streamfx-ubuntu-20.04-0.11.0.0-g31d56703.zip"
