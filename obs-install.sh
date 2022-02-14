@@ -184,10 +184,10 @@ fi
 
 OS_ID=$(lsb_release --id --short)
 case "${OS_ID}" in
-    Linuxmint) fancy_message info "LinuxMint detected.";;
-    Neon) fancy_message info "KDE Neon detected.";;
-    Ubuntu) fancy_message info "Ubuntu detected.";;
-    *) fancy_message error "${OS_ID} is not supported.";;
+  Linuxmint) fancy_message info "LinuxMint detected.";;
+  Neon) fancy_message info "KDE Neon detected.";;
+  Ubuntu) fancy_message info "Ubuntu detected.";;
+  *) fancy_message error "${OS_ID} is not supported.";;
 esac
 
 OS_CODENAME=$(lsb_release --codename --short)
@@ -199,8 +199,8 @@ esac
 
 fancy_message info "Updating apt."
 case ${1} in
-    unstable) add-apt-repository -y --no-update ppa:obsproject/obs-studio-unstable >/dev/null 2>&1;;
-    *) add-apt-repository -y --no-update ppa:obsproject/obs-studio >/dev/null 2>&1;;
+  unstable) add-apt-repository -y --no-update ppa:obsproject/obs-studio-unstable >/dev/null 2>&1;;
+  *) add-apt-repository -y --no-update ppa:obsproject/obs-studio >/dev/null 2>&1;;
 esac
 apt-get -q=2 -y update
 
