@@ -40,7 +40,7 @@ function apt_download() {
     apt-get -q=2 -y download ${PACKAGE} >/dev/null 2>&1
     cd - >/dev/null 2>&1
 
-    DEB=$(find "${CACHE_DIR}/" -name "${PACKAGE}*.deb" -type f | head -n1)
+    DEB=$(find "${CACHE_DIR}/" -name "${PACKAGE}*.deb" -type f | tail -n1)
     apt_install "${DEB}"
 }
 
