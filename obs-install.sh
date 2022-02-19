@@ -184,6 +184,7 @@ fi
 
 OS_ID=$(lsb_release --id --short)
 case "${OS_ID}" in
+  Elementary) fancy_message info "elementary OS detected.";;
   Linuxmint) fancy_message info "Linux Mint detected.";;
   Neon) fancy_message info "KDE Neon detected.";;
   Pop) fancy_message info "Pop!_OS detected.";;
@@ -195,6 +196,7 @@ OS_CODENAME=$(lsb_release --codename --short)
 case "${OS_CODENAME}" in
   focal|hirsute|impish) fancy_message info "${OS_CODENAME^} detected.";;
   uma|una) fancy_message info "${OS_CODENAME^} detected.";;
+  jolnir) fancy_message info "${OS_CODENAME^} detected.";;
   *) fancy_message error "${OS_CODENAME^} is not supported.";;
 esac
 
