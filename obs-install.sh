@@ -230,8 +230,8 @@ install_deb "https://github.com/norihiro/obs-text-pthread/releases/download/1.0.
 install_deb "https://github.com/jbwong05/obs-pulseaudio-app-capture/releases/download/v0.1.0/obs-pulseaudio-app-capture_0.1.0-1_amd64.deb"
 install_deb "https://github.com/iamscottxu/obs-rtspserver/releases/download/v2.2.0-rc4/obs-rtspserver-v2.2.0-rc4-linux.deb"
 install_deb "https://github.com/norihiro/obs-vnc/releases/download/0.4.0/obs-vnc_1-0.4.0-1_amd64.deb"
+# https://github.com/obsproject/obs-websocket/discussions/909#discussioncomment-2144745
 install_deb "https://github.com/obsproject/obs-websocket/releases/download/4.9.1/obs-websocket_4.9.1-1_amd64.deb"
-#install_deb "https://github.com/obsproject/obs-websocket/releases/download/4.9.1-compat/obs-websocket_4.9.1-compat-1_amd64.deb"
 
 # Install Exeldro's plugins to ~/.config/obs-studio/plugins
 install_exeldro_plugin "https://obsproject.com/forum/resources/directory-watch-media.801/version/3036/download?file=66030" "dir-watch-media-0.5.3-linux64.tar.gz.zip"
