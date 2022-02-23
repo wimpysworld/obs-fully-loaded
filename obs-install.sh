@@ -250,7 +250,7 @@ install_exeldro_plugin "https://obsproject.com/forum/resources/source-dock.1317/
 install_exeldro_plugin "https://obsproject.com/forum/resources/source-record.1285/version/3998/download?file=79616" "source-record-0.2.7-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/source-switcher.941/version/4046/download?file=80410" "source-switcher-0.4.0-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/time-warp-scan.1167/version/3475/download?file=72760" "time-warp-scan-0.1.6-linux64.tar.gz.zip"
-install_exeldro_plugin "https://obsproject.com/forum/resources/transition-table.1174/version/3513/download?file=73269" "transition-table-0.2.1-linux64.tar.gz.zip"
+install_exeldro_plugin "https://obsproject.com/forum/resources/transition-table.1174/version/4048/download?file=80591" "transition-table-0.2.3-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/virtual-cam-filter.1142/version/4031/download?file=80127" "virtual-cam-filter-0.0.5-linux64.tar.gz.zip"
 
 # Install Tarball plugins to ~/.config/obs-studio/plugins
