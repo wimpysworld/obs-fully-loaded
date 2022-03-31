@@ -194,17 +194,14 @@ esac
 
 OS_CODENAME=$(lsb_release --codename --short)
 case "${OS_CODENAME}" in
-  focal|hirsute|impish) fancy_message info "${OS_CODENAME^} detected.";;
+  focal|impish|jammy) fancy_message info "${OS_CODENAME^} detected.";;
   uma|una) fancy_message info "${OS_CODENAME^} detected.";;
   jolnir) fancy_message info "${OS_CODENAME^} detected.";;
   *) fancy_message error "${OS_CODENAME^} is not supported.";;
 esac
 
 fancy_message info "Updating apt."
-case ${1} in
-  unstable) add-apt-repository -y --no-update ppa:obsproject/obs-studio-unstable >/dev/null 2>&1;;
-  *) add-apt-repository -y --no-update ppa:obsproject/obs-studio >/dev/null 2>&1;;
-esac
+add-apt-repository -y --no-update ppa:flexiondotorg/obs-fully-loaded >/dev/null 2>&1
 apt-get -q=2 -y update
 
 CACHE_DIR="${SUDO_HOME}/.cache/obs-install"
@@ -215,9 +212,13 @@ mkdir -p "${CACHE_DIR}"
 mkdir -p "${PLUGIN_DIR}"
 mkdir -p "${THEME_DIR}"
 
-# Cache a copy of the OBS Studio .deb before installing it.
-# If a future update breaks compatibility, you can manually rollback. For example:
-# sudo apt -y install ~/.cache/obs-install/obs-studio_xx.y.z-0obsproject1~impish_amd64.deb
+# Cache a copy of the OBS Studio .debs before installing them.
+# If a future update breaks compatibility, you can manually rollback.
+#   sudo apt -y install ~/.cache/obs-install/libobs0_27.2.3+fullyloaded1-1~jammy22.079.020825_amd64.deb \
+#   ~/.cache/obs-install/obs-plugins_27.2.3+fullyloaded1-1~jammy22.079.020825_amd64.deb \
+#   ~/.cache/obs-install/obs-studio_27.2.3+fullyloaded1-1~jammy22.079.020825_amd64.deb
+apt_download "libobs0"
+apt_download "obs-plugins"
 apt_download "obs-studio"
 
 # Install .deb plugins to /usr/lib/obs-plugins
