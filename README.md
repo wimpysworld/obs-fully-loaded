@@ -18,8 +18,8 @@ sudo ./obs-install.sh
 
 # Batteries included
 
-This script install OBS Studio from the official PPA and then install a collections of 3rd party
-plugins and themes.
+This script installs [OBS Studio from mv OBS Fully Loaded PPA](https://launchpad.net/~flexiondotorg/+archive/ubuntu/obs-fully-loaded)
+and then installs a collection of 3rd party plugins and themes.
 
   * Supports **NVENC (NVIDIA) and VA-API (AMD & Intel) accelerated video encoding**.
   * **[Advanced Scene Switcher](https://github.com/WarmUpTill/SceneSwitcher)** plugin; an automated scene switcher.
