@@ -248,7 +248,7 @@ install_exeldro_plugin "https://obsproject.com/forum/resources/scene-collection-
 install_exeldro_plugin "https://obsproject.com/forum/resources/scene-notes-dock.1398/version/4036/download?file=80203" "scene-notes-dock-0.0.4-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/source-copy.1261/version/4071/download?file=81023" "source-copy-0.1.4-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/source-dock.1317/version/3987/download?file=79453" "source-dock-0.3.2-linux64.tar.gz.zip"
-install_exeldro_plugin "https://obsproject.com/forum/resources/source-record.1285/version/3998/download?file=79616" "source-record-0.2.7-linux64.tar.gz.zip"
+install_exeldro_plugin "https://obsproject.com/forum/resources/source-record.1285/version/4081/download?file=81309" "source-record-0.3.0-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/source-switcher.941/version/4046/download?file=80410" "source-switcher-0.4.0-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/time-warp-scan.1167/version/3475/download?file=72760" "time-warp-scan-0.1.6-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/transition-table.1174/version/4048/download?file=80591" "transition-table-0.2.3-linux64.tar.gz.zip"
