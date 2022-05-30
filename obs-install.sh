@@ -256,7 +256,7 @@ install_exeldro_plugin "https://obsproject.com/forum/resources/virtual-cam-filte
 
 # Install Tarball plugins to ~/.config/obs-studio/plugins
 install_tarball_plugin "https://github.com/kkartaltepe/obs-text-pango/releases/download/v1.0/text-pango-linux.tar.gz"
-install_tarball_plugin "https://github.com/Qufyy/obs-scale-to-sound/releases/download/1.2.0/obs-scale-to-sound-1.2.0-linux64.tar.gz"
+install_tarball_plugin "https://github.com/dimtpap/obs-scale-to-sound/releases/download/1.2.1/obs-scale-to-sound-1.2.1-linux64.tar.gz"
 
 # Install Zipped plugins to ~/.config/obs-studio/plugins
 install_zip_plugin "https://github.com/univrsal/dvds3/releases/download/v1.1/dvd-screensaver.v1.1.linux.x64.zip"
