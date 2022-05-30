@@ -262,7 +262,7 @@ install_tarball_plugin "https://github.com/dimtpap/obs-scale-to-sound/releases/d
 install_zip_plugin "https://github.com/univrsal/dvds3/releases/download/v1.1/dvd-screensaver.v1.1.linux.x64.zip"
 install_zip_plugin "https://github.com/fzwoch/obs-gstreamer/releases/download/v0.3.3/obs-gstreamer.zip" "obs-gstreamer-v0.3.3.zip" "linux/*"
 install_zip_plugin "https://obsproject.com/forum/resources/obs-nvfbc.796/download" "obs-nvfbc-0.0.6.zip"
-install_zip_plugin "https://github.com/fzwoch/obs-teleport/releases/download/0.2.4/obs-teleport.zip" "obs-teleport-0.2.4.zip" "linux-x86_64/*"
+install_zip_plugin "https://github.com/fzwoch/obs-teleport/releases/download/0.4.1/obs-teleport.zip" "obs-teleport-0.4.1.zip" "linux-x86_64/*"
 install_zip_plugin "https://obsproject.com/forum/resources/rgb-levels.967/download" "rgb-levels-linux.zip"
 install_zip_plugin "https://github.com/univrsal/spectralizer/releases/download/v1.3.4/spectralizer.v1.3.4.bin.linux.x64.zip"
 install_zip_plugin "https://github.com/Xaymar/obs-StreamFX/releases/download/0.11.0/streamfx-ubuntu-20.04-0.11.0.0-g31d56703.zip"
