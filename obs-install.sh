@@ -236,7 +236,7 @@ install_deb "https://github.com/norihiro/obs-vnc/releases/download/0.4.0/obs-vnc
 install_deb "https://github.com/obsproject/obs-websocket/releases/download/4.9.1/obs-websocket_4.9.1-1_amd64.deb"
 
 # Install Exeldro's plugins to ~/.config/obs-studio/plugins
-install_exeldro_plugin "https://obsproject.com/forum/resources/directory-watch-media.801/version/3036/download?file=66030" "dir-watch-media-0.5.3-linux64.tar.gz.zip"
+install_exeldro_plugin "https://obsproject.com/forum/resources/directory-watch-media.801/version/4096/download?file=81705" "dir-watch-media-0.6.0-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/downstream-keyer.1254/version/3635/download?file=74749" "downstream-keyer-0.2.1-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/dynamic-delay.1035/version/3129/download?file=67436" "dynamic-0.1.2-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/freeze-filter.950/version/3026/download?file=65909" "freeze-filter-0.3.2-linux64.tar.gz.zip"
