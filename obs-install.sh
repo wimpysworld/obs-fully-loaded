@@ -238,7 +238,7 @@ install_deb "https://github.com/obsproject/obs-websocket/releases/download/4.9.1
 # Install Exeldro's plugins to ~/.config/obs-studio/plugins
 install_exeldro_plugin "https://obsproject.com/forum/resources/directory-watch-media.801/version/4096/download?file=81705" "dir-watch-media-0.6.0-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/downstream-keyer.1254/version/4079/download?file=81228" "downstream-keyer-0.2.2-linux64.tar.gz.zip"
-install_exeldro_plugin "https://obsproject.com/forum/resources/dynamic-delay.1035/version/3129/download?file=67436" "dynamic-0.1.2-linux64.tar.gz.zip"
+install_exeldro_plugin "https://obsproject.com/forum/resources/dynamic-delay.1035/version/4069/download?file=80953" "dynamic-delay-0.1.3-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/freeze-filter.950/version/3026/download?file=65909" "freeze-filter-0.3.2-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/gradient-source.1172/version/3926/download?file=78596" "gradient-source-0.3.0-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/move-transition.913/version/4040/download?file=80291" "move-transition-2.5.8-linux64.tar.gz.zip"
