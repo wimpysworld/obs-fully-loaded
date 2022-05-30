@@ -227,7 +227,7 @@ install_deb "https://github.com/norihiro/obs-command-source/releases/download/0.
 install_deb "https://github.com/Palakis/obs-ndi/releases/download/4.9.1/libndi4_4.5.1-1_amd64.deb"
 install_deb "https://github.com/norihiro/obs-multisource-effect/releases/download/0.1.7/obs-multisource-effect_1-0.1.7-1_amd64.deb"
 install_deb "https://github.com/Palakis/obs-ndi/releases/download/4.9.1/obs-ndi_4.9.1-1_amd64.deb"
-install_deb "https://github.com/norihiro/obs-text-pthread/releases/download/1.0.3/obs-text-pthread_1-1.0.3-1_amd64.deb"
+#install_deb "https://github.com/norihiro/obs-text-pthread/releases/download/1.0.3/obs-text-pthread_1-1.0.3-1_amd64.deb"
 install_deb "https://github.com/jbwong05/obs-pulseaudio-app-capture/releases/download/v0.1.0/obs-pulseaudio-app-capture_0.1.0-1_amd64.deb"
 install_deb "https://github.com/iamscottxu/obs-rtspserver/releases/download/v2.2.1/obs-rtspserver-v2.2.1-linux.deb"
 install_deb "https://github.com/cg2121/obs-soundboard/releases/download/1.0.3/obs-soundboard_1.0.3-1_amd64.deb"
