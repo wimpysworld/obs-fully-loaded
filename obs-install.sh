@@ -189,15 +189,20 @@ case "${OS_ID}" in
   Neon) fancy_message info "KDE Neon detected.";;
   Pop) fancy_message info "Pop!_OS detected.";;
   Ubuntu) fancy_message info "Ubuntu detected.";;
+  Zorin) fancy_message info "Zorin OS detected.";;
   *) fancy_message error "${OS_ID} is not supported.";;
 esac
 
 OS_CODENAME=$(lsb_release --codename --short)
-case "${OS_CODENAME}" in
-  focal|impish|jammy) fancy_message info "${OS_CODENAME^} detected.";;
-  uma|una) fancy_message info "${OS_CODENAME^} detected.";;
-  jolnir) fancy_message info "${OS_CODENAME^} detected.";;
-  *) fancy_message error "${OS_CODENAME^} is not supported.";;
+if [ -e /etc/os-release ]; then
+    UBUNTU_CODENAME=$(grep UBUNTU_CODENAME /etc/os-release | cut -d'=' -f2)
+else
+    fancy_message fatal "/etc/os-release not found. Quitting"
+fi
+
+case "${UBUNTU_CODENAME}" in
+    focal|impish|jammy|kinetic) true;;
+    *) fancy_message fatal "${OS_ID_PRETTY} ${OS_CODENAME^} is not supported because it is not derived from a supported Ubuntu release.";;
 esac
 
 fancy_message info "Updating apt."
