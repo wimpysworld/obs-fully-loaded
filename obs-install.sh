@@ -242,14 +242,14 @@ install_deb "https://github.com/obsproject/obs-websocket/releases/download/4.9.1
 
 # Install Exeldro's plugins to ~/.config/obs-studio/plugins
 install_exeldro_plugin "https://obsproject.com/forum/resources/directory-watch-media.801/version/4096/download?file=81705" "dir-watch-media-0.6.0-linux64.tar.gz.zip"
-install_exeldro_plugin "https://obsproject.com/forum/resources/downstream-keyer.1254/version/4079/download?file=81228" "downstream-keyer-0.2.2-linux64.tar.gz.zip"
+install_exeldro_plugin "https://obsproject.com/forum/resources/downstream-keyer.1254/version/4225/download?file=83850" "downstream-keyer-0.2.3-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/dynamic-delay.1035/version/4069/download?file=80953" "dynamic-delay-0.1.3-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/freeze-filter.950/version/3026/download?file=65909" "freeze-filter-0.3.2-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/gradient-source.1172/version/3926/download?file=78596" "gradient-source-0.3.0-linux64.tar.gz.zip"
-install_exeldro_plugin "https://obsproject.com/forum/resources/move-transition.913/version/4040/download?file=80291" "move-transition-2.5.8-linux64.tar.gz.zip"
+install_exeldro_plugin "https://obsproject.com/forum/resources/move-transition.913/version/4297/download?file=84808" "move-transition-2.6.1-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/recursion-effect.1008/version/3928/download?file=78616" "recursion-effect-0.0.4-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/replay-source.686/version/4089/download?file=81604" "replay-source-1.6.10-linux64.tar.gz.zip"
-install_exeldro_plugin "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/4174/download?file=83094" "scene-collection-manager-0.0.5-linux64.tar.gz.zip"
+install_exeldro_plugin "https://obsproject.com/forum/resources/scene-collection-manager.1434/version/4229/download?file=83908" "scene-collection-manager-0.0.6-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/scene-notes-dock.1398/version/4036/download?file=80203" "scene-notes-dock-0.0.4-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/source-copy.1261/version/4071/download?file=81023" "source-copy-0.1.4-linux64.tar.gz.zip"
 install_exeldro_plugin "https://obsproject.com/forum/resources/source-dock.1317/version/3987/download?file=79453" "source-dock-0.3.2-linux64.tar.gz.zip"
@@ -267,11 +267,11 @@ install_tarball_plugin "https://github.com/dimtpap/obs-scale-to-sound/releases/d
 install_zip_plugin "https://github.com/univrsal/dvds3/releases/download/v1.1/dvd-screensaver.v1.1.linux.x64.zip"
 install_zip_plugin "https://github.com/fzwoch/obs-gstreamer/releases/download/v0.3.3/obs-gstreamer.zip" "obs-gstreamer-v0.3.3.zip" "linux/*"
 install_zip_plugin "https://obsproject.com/forum/resources/obs-nvfbc.796/download" "obs-nvfbc-0.0.6.zip"
-install_zip_plugin "https://github.com/fzwoch/obs-teleport/releases/download/0.4.1/obs-teleport.zip" "obs-teleport-0.4.1.zip" "linux-x86_64/*"
+install_zip_plugin "https://github.com/fzwoch/obs-teleport/releases/download/0.5.0/obs-teleport.zip" "obs-teleport-0.5.0.zip" "linux-x86_64/*"
 install_zip_plugin "https://obsproject.com/forum/resources/rgb-levels.967/download" "rgb-levels-linux.zip"
 install_zip_plugin "https://github.com/univrsal/spectralizer/releases/download/v1.3.4/spectralizer.v1.3.4.bin.linux.x64.zip"
 install_zip_plugin "https://github.com/Xaymar/obs-StreamFX/releases/download/0.11.1/streamfx-ubuntu-20.04-0.11.1.0-g81a96998.zip"
-install_zip_plugin "https://github.com/WarmUpTill/SceneSwitcher/releases/download/1.17.5/SceneSwitcher.zip" "SceneSwitcher-1.17.5.zip" "SceneSwitcher/Linux/advanced-scene-switcher/*"
+install_zip_plugin "https://github.com/WarmUpTill/SceneSwitcher/releases/download/1.17.7/SceneSwitcher.zip" "SceneSwitcher-1.17.7.zip" "SceneSwitcher/Linux/advanced-scene-switcher/*"
 
 # Install Zipped theme to ~/.config/obs-studio/themes
 install_theme "https://github.com/cssmfc/camgirl-obs/releases/download/1.1.OBS.CGC/cgc_theme_obs.zip"
