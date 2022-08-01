@@ -201,7 +201,7 @@ else
 fi
 
 case "${UBUNTU_CODENAME}" in
-    focal|impish|jammy|kinetic) true;;
+    focal|jammy|kinetic) true;;
     *) fancy_message fatal "${OS_ID_PRETTY} ${OS_CODENAME^} is not supported because it is not derived from a supported Ubuntu release.";;
 esac
 
