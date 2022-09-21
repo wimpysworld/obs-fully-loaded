@@ -357,6 +357,7 @@ symlink_deb "obs-mute-filter"
 
 install_deb "https://github.com/norihiro/obs-text-pthread/releases/download/2.0.2/obs-text-pthread-2.0.2-obs27-ubuntu-20.04-x86_64.deb"
 symlink_deb "obs-text-pthread"
+install_deb "https://github.com/phandasm/waveform/releases/download/v1.5.0/Waveform_v1.5.0_Ubuntu_x86_64.deb"
 
 ## Install Exeldro's plugins to ~/.config/obs-studio/plugins
 install_exeldro_plugin "https://obsproject.com/forum/resources/directory-watch-media.801/version/4096/download?file=81705" "dir-watch-media-0.6.0-linux64.tar.gz.zip"
@@ -394,7 +395,6 @@ install_zip_plugin "https://github.com/univrsal/spectralizer/releases/download/v
 install_tarball_plugin "https://github.com/dimtpap/obs-pipewire-audio-capture/releases/download/1.0.5/linux-pipewire-audio-1.0.5.tar.gz"
 install_tarball_plugin "https://github.com/dimtpap/obs-scale-to-sound/releases/download/1.2.2/obs-scale-to-sound-1.2.2-linux64.tar.gz"
 install_tarball_plugin "https://github.com/kkartaltepe/obs-text-pango/releases/download/v1.0/text-pango-linux.tar.gz"
-install_tarball_plugin "https://github.com/phandasm/waveform/releases/download/v1.4.1/Waveform_v1.4.1_Ubuntu_X64.tar.gz"
 
 # LiveVisionKit requires specific versions of OpenCL
  case "${UBUNTU_CODENAME}" in
