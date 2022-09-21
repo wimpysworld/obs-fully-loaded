@@ -392,7 +392,7 @@ install_zip_plugin "https://github.com/univrsal/spectralizer/releases/download/v
 
 # Install Tarball plugins to ~/.config/obs-studio/plugins
 install_tarball_plugin "https://github.com/dimtpap/obs-pipewire-audio-capture/releases/download/1.0.5/linux-pipewire-audio-1.0.5.tar.gz"
-install_tarball_plugin "https://github.com/dimtpap/obs-scale-to-sound/releases/download/1.2.1/obs-scale-to-sound-1.2.1-linux64.tar.gz"
+install_tarball_plugin "https://github.com/dimtpap/obs-scale-to-sound/releases/download/1.2.2/obs-scale-to-sound-1.2.2-linux64.tar.gz"
 install_tarball_plugin "https://github.com/kkartaltepe/obs-text-pango/releases/download/v1.0/text-pango-linux.tar.gz"
 install_tarball_plugin "https://github.com/phandasm/waveform/releases/download/v1.4.1/Waveform_v1.4.1_Ubuntu_X64.tar.gz"
 
