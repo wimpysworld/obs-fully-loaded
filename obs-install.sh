@@ -349,14 +349,12 @@ symlink_deb "obs-audio-pan-filter"
 install_deb "https://github.com/norihiro/obs-command-source/releases/download/0.3.0/obs-command-source-0.3.0-obs27-ubuntu-20.04-x86_64.deb"
 symlink_deb "obs-command-source"
 
-install_deb "https://github.com/norihiro/obs-face-tracker/releases/download/0.6.4/obs-face-tracker-0.6.4-obs28-ubuntu-${UBUNTU_VER}.04-x86_64.deb"
-install_deb "https://github.com/norihiro/obs-multisource-effect/releases/download/0.2.1/obs-multisource-effect-0.2.1-obs28-ubuntu-20.04-x86_64.deb"
-
 install_deb "https://github.com/norihiro/obs-mute-filter/releases/download/0.2.1/obs-mute-filter-0.2.1-obs27-ubuntu-20.04-x86_64.deb"
 symlink_deb "obs-mute-filter"
 
-install_deb "https://github.com/norihiro/obs-text-pthread/releases/download/2.0.2/obs-text-pthread-2.0.2-obs27-ubuntu-20.04-x86_64.deb"
-symlink_deb "obs-text-pthread"
+install_deb "https://github.com/norihiro/obs-face-tracker/releases/download/0.6.4/obs-face-tracker-0.6.4-obs28-ubuntu-${UBUNTU_VER}.04-x86_64.deb"
+install_deb "https://github.com/norihiro/obs-multisource-effect/releases/download/0.2.1/obs-multisource-effect-0.2.1-obs28-ubuntu-20.04-x86_64.deb"
+install_deb "https://github.com/norihiro/obs-text-pthread/releases/download/2.0.2/obs-text-pthread-2.0.2-obs28-ubuntu-20.04-x86_64.deb"
 install_deb "https://github.com/phandasm/waveform/releases/download/v1.5.0/Waveform_v1.5.0_Ubuntu_x86_64.deb"
 
 ## Install Exeldro's plugins to ~/.config/obs-studio/plugins
