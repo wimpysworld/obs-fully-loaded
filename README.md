@@ -1,8 +1,12 @@
+# THIS SCRIPT IS NO LONGER MAINTAINED. PLEASE USE <https://github.com/wimpysworld/obs-studio-portable>
+
 <h1 align="center">
   <img src="https://avatars1.githubusercontent.com/u/7725691?v=3&s=256" alt="OBS Studio">
   <br />
   OBS Studio - <i>Fully Loaded!</i>
 </h1>
+
+
 
 <p align="center"><b>This is an install script for OBS Studio</b>, <i>"Free and open source software for live streaming and screen recording; that comes pre-loaded with extra features and plugins!"</i> It works on Ubuntu and derivative distributions.
 <br />
